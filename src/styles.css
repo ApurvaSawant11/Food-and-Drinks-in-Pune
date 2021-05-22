@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #fca3fd;
+  --secondary-color: #acd4f8;
+  --background: #f4faff;
+}
+
+.header {
+  background-image: linear-gradient(140deg, #fc00ff, #00dbde);
+  padding: 0.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 30px;
+  font-family: "Texturina", serif;
+  line-height: 3rem;
+}
+span {
+  font-size: small;
+}
+.about {
+  width: 90%;
+  margin: auto;
+  font-family: "Newsreader", serif;
+  font-size: larger;
+}
+body {
+  margin: 0px auto;
+  line-height: 1.5rem;
+  background-color: var(--background);
+}
+
+button {
+  border-radius: 0.3rem;
+  box-shadow: 0 0 10px #4b5563;
+  padding: 0.4rem 0.8rem;
+  margin: 1rem 1.3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-family: "Newsreader", serif;
+}
+button:hover {
+  transform: scale(1.2);
+}
+
+.dish-name {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.dish-grid {
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 5rem;
+  font-family: "Newsreader", serif;
+  line-height: 1.7rem;
+  width: 80%;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  box-shadow: 0 0 20px black;
+  padding: 1.5rem;
+}
+
+.imgg {
+  margin: auto;
+  width: 80%;
+  height: 160px;
+  padding: 0.7rem;
+  background-color: var(--background);
+  border-radius: 0.2rem;
+}
+
+.imgg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.details {
+  text-align: left;
+  padding-top: 2rem;
+  font-size: large;
+}
+
+.footer {
+  font-family: "Newsreader", serif;
+  background-image: linear-gradient(140deg, #fc00ff, #00dbde);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
