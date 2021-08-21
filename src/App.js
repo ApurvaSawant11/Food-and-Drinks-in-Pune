@@ -213,6 +213,32 @@ export default function App() {
       <p>More soon!</p>
 
       <section className="footer">
+        <ul>
+          <li className="footerLink">
+            <a href="https://github.com/ApurvaSawant11" target="_blank">
+              <i className="fab fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li className="footerLink">
+            <a href="https://twitter.com/ApurvaSawant11" target="_blank">
+              <i className="fab fa-twitter fa-2x"></i>
+            </a>
+          </li>
+
+          <li className="footerLink">
+            <a
+              href="https://www.linkedin.com/in/apurvasawant11" target="_blank">
+              <i className="fab fa-linkedin-in fa-2x"></i>
+            </a>
+          </li>
+
+          <li className="footerLink">
+            <a href="https://apurvasawant11.netlify.app/" target="_blank">
+              <i className="fas fa-briefcase fa-2x"></i>
+            </a>
+          </li>
+        </ul>
         <p>Made with ❤️ by Apurva</p>
       </section>
     </div>
