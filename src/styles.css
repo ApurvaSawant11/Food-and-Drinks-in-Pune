@@ -104,3 +104,17 @@ button:hover {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
+
+ul {
+  padding: 1em;
+}
+
+li {
+  display: inline;
+  padding: 0.5em 1em;
+  list-style: none;
+}
+
+i {
+  color: black;
+}
